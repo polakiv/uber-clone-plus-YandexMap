@@ -25,13 +25,13 @@ const DestinationSearch = (props) => {
             console.log(data, details);
           }}
           query={{
-            key: "AIzaSyAbt7wA6dKmcgzcd6ORVjLgzNNN8uET7UA",
+            key: "",
             language: "en",
           }}
           requestUrl={{
             useOnPlatform: 'web', // or "all"
             url:
-              'https://api.allorigins.win/get?url=https://maps.googleapis.com/maps/api', // or any proxy server that hits https://maps.googleapis.com/maps/api
+              'https://api./get?url=https://maps.googleapis.com/maps/api', // or any proxy server that hits https://maps.googleapis.com/maps/api
           }}
         />
         <GooglePlacesAutocomplete style={styles.TextInput}
@@ -42,13 +42,13 @@ const DestinationSearch = (props) => {
             console.log(data, details);
           }}
           query={{
-            key: "AIzaSyAbt7wA6dKmcgzcd6ORVjLgzNNN8uET7UA",
+            key: "",
             language: "en",
           }}
           requestUrl={{
             useOnPlatform: 'web', // or "all"
             url:
-              'https://api.allorigins.win/get?url=https://maps.googleapis.com/maps/api', // or any proxy server that hits https://maps.googleapis.com/maps/api
+              'https://api/get?url=https://maps.googleapis.com/maps/api', // or any proxy server that hits https://maps.googleapis.com/maps/api
           }}
         />
       </View>
