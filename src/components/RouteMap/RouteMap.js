@@ -36,7 +36,7 @@ export default function RouteMap() {
   return (
     <YMaps
       style={{ flex: 1, width: "100%", height: "100%" }}
-      query={{ apikey: "77344b8e-1d6e-4ba9-be6c-dfe62831be7a" }}
+      query={{ apikey: "-1d6e-4ba9-be6c-dfe62831be7a" }}
     >
       <Map
         style={{ flex: 1, width: "100%", height: "100%" }}
