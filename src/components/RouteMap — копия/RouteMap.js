@@ -3,9 +3,9 @@ import { FlatList, Image, Text, View } from "react-native";
 import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 
- //const GOOGLE_MAPS_APIKEY = "AIzaSyB1KoK7KQe0YzwScTNjC7lHRSi7my056bk";
-//const GOOGLE_MAPS_APIKEY = "AIzaSyAGs6J8iZJ7mZeP6de9SyenOcA6MwFrwJc";
-const GOOGLE_MAPS_APIKEY = "AIzaSyAludDavPzTut9L6LzaxTWIp6Uiboxrbyw";
+ //const GOOGLE_MAPS_APIKEY = "";
+//const GOOGLE_MAPS_APIKEY = "";
+const GOOGLE_MAPS_APIKEY = "";
  
 const RouteMap = (props) => {
   const origin = {
